@@ -9,15 +9,11 @@
 
 ## Setup
 
-1.給予執行權限
-
-`chmod u+x setup.sh`
-
-2.執行
+1.執行
 
 `./setup.sh`
 
-3.設定 powerline 字體
+2.設定 powerline 字體
 
 安裝 [powerline/fonts](https://github.com/powerline/fonts)，**並且在 terminal(個人用 iterm2)設定該字體**
 
