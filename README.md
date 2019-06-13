@@ -19,7 +19,9 @@
 
 3.設定 powerline 字體
 
-安裝 [powerline](https://github.com/powerline/powerline)，並且在 terminal(個人用 iterm2)設定該字體
+安裝 [powerline/fonts](https://github.com/powerline/fonts)，**並且在 terminal(個人用 iterm2)設定該字體**
+
+
 
 
 ## Usage
@@ -31,8 +33,3 @@
 在不同的 tab 中切換:
 - 使用 `shift` + `←` 或 `shift` + `→` 
 ![切換2](https://i.imgur.com/XQ5I9dn.gif)
-
-
-## Tips
-
-若無法正常顯示請確認電腦有安裝 [powerline](https://github.com/powerline/powerline) 字體
