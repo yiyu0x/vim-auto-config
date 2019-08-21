@@ -15,6 +15,7 @@ set backspace=2
 color dracula
 """"""""""""""""""""""""""""""""""""""""""
 "nerdtree自定義快捷鍵
+nmap <F6> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 au VimEnter *  NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
