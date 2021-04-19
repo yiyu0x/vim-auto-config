@@ -12,7 +12,7 @@ set ruler "顯示右下角詳細資訊
 set incsearch "find as you type
 set hlsearch "find as you type
 set backspace=2 
-color dracula
+"color dracula
 """"""""""""""""""""""""""""""""""""""""""
 "nerdtree自定義快捷鍵
 nmap <F6> :NERDTreeToggle<CR>
@@ -21,10 +21,10 @@ au VimEnter *  NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map  <F3>      :NERDTreeMirror <CR>
 map  <C-n>     :NERDTreeToggle <CR>
-map  <C-LEFT>  :NERDTreeFocus  <CR>
-nmap <C-RIGHT> <C-w>l
-map  <S-LEFT>  :bp  <CR>
-map  <S-RIGHT> :bn  <CR>
+map  <S-LEFT>  :NERDTreeFocus  <CR>
+nmap <S-RIGHT> <C-w>l
+map  <C-[>     :bp  <CR>
+map  <C-]>     :bn  <CR>
 
 augroup NERD
     au!
