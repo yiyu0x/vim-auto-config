@@ -21,10 +21,16 @@ au VimEnter *  NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map  <F3>      :NERDTreeMirror <CR>
 map  <C-n>     :NERDTreeToggle <CR>
+"Switch between file browser and editor
 map  <C-LEFT>  :NERDTreeFocus  <CR>
 nmap <C-RIGHT> <C-w>l
+map  <C-h>     :NERDTreeFocus  <CR>
+nmap <C-l>     <C-w>l
+"Switch between tabs
 map  <S-LEFT>  :bp  <CR>
 map  <S-RIGHT> :bn  <CR>
+map  <S-h>     :bp  <CR>
+map  <S-l>     :bn  <CR>
 
 augroup NERD
     au!
