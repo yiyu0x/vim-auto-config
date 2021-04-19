@@ -21,10 +21,10 @@ au VimEnter *  NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map  <F3>      :NERDTreeMirror <CR>
 map  <C-n>     :NERDTreeToggle <CR>
-map  <S-LEFT>  :NERDTreeFocus  <CR>
-nmap <S-RIGHT> <C-w>l
-map  <C-[>     :bp  <CR>
-map  <C-]>     :bn  <CR>
+map  <C-LEFT>  :NERDTreeFocus  <CR>
+nmap <C-RIGHT> <C-w>l
+map  <S-LEFT>  :bp  <CR>
+map  <S-RIGHT> :bn  <CR>
 
 augroup NERD
     au!
